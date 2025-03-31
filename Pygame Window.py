@@ -12,7 +12,7 @@ done = False
 
 while not done:
     
-    #Keep clearing the even queue
+    #Keep clearing the event queue
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             done = True

@@ -14,7 +14,7 @@ Venom_img = pygame.transform.scale(pygame.image.load('Venom.png'), (100, 100))
 Venom_rect = Venom_img.get_rect(center=(SCREEN_WIDTH // 2, SCREEN_HEIGHT // 2 - 30))
 
 # Initialise the font, render text and set text position
-text = pygame.font.Font(None, 32).render('Venom', True, pygame.Color('Green'))
+text = pygame.font.Font(None, 32).render('Venom', True, pygame.Color('Grey'))
 text_rect = text.get_rect(center=(SCREEN_WIDTH // 2, SCREEN_HEIGHT // 2 + 60))
 
 def game_loop():
@@ -35,3 +35,4 @@ def game_loop():
 
 if __name__ == '__main__':
     game_loop()
+    
